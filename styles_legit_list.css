@@ -14,6 +14,7 @@ body {
     margin: 20px 0;
     font-size: 24px;
     text-align: center;
+    color: white;
 }
 
 .container {
@@ -33,11 +34,12 @@ body {
     align-items: center;
     border: 1px solid black; /* Thin black border */
     border-radius: 10px;
-    background-color: #f8f8f8;
+    background-color: hsl(128, 52%, 43%);
     transition: background-color 0.3s, transform 0.3s;
     cursor: pointer;
     text-align: center; /* Ensure text is centered */
     font-size: 12px; /* Adjust font size for labels */
+    color:rbg(17, 25, 36);
 }
 
 .box:hover {
