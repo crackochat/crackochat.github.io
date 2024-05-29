@@ -29,7 +29,7 @@ button {
     font-size: 16px;
     border: 1px solid hsl(128, 52%, 43%); /* Ajout d'une bordure fine */
     border-radius: 50px;
-    background-color: rgb(17, 25, 36); /* Fond de la même couleur que la page */
+    background-color: rgb(29, 39, 51); /* Fond de la même couleur que la page */
     color: white;
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
