@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: rgb(17, 25, 36);
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Une police plus moderne */
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; /* Pour déplacer le texte plus près du haut */
+        align-items: center;
+        padding-top: 50px; /* Ajoute de l'espace au-dessus du contenu */
+        text-align: center;
+    }
+
+    h1, ul, p {
+        opacity: 0;
+        animation: fadeIn 1.5s forwards;
+    }
+
+    h1 {
+        animation-delay: 0.5s;
+        color: #E5E5E5; /* Un blanc légèrement grisé pour le titre */
+    }
+
+    ul {
+        animation-delay: 1.5s;
+        list-style-type: none;
+        padding: 0;
+        color: #CCCCCC; /* Un gris clair pour les règles */
+    }
+
+    ul li {
+        margin-bottom: 10px;
+    }
+
+    p {
+        animation-delay: 2.5s;
+        color: #F8F8F8; /* Un blanc presque pur pour le message final */
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1, ul, p {
+    margin: 20px 30px; /* Augmente l'espace autour du texte pour chaque élément */
+    }
+
+    ul {
+        padding: 0 20px; /* Augmente spécifiquement l'espace à gauche et à droite pour les règles */
+    }
+
+</style>
+</head>
+<body>
+    <div>
+        <h1>Commandement du CrackoLand🦖</h1>
+        <ul>
+            <li>
+                - <b>WEED & CHAMPIS ONLY</b>, une liste <b>PHARMA</b> est prévu pour éviter toutes autres demandes, pas d'autres demande ou ban.
+                (tout est accessible via la <a href="legitList.html"><u>liste</u></a>)</li>
+            <li>-<b>PAS D'INSULTES, MENACES, DOX</b> etc...</li>
+            <li>-Pour des pubs/objets à vendre, passer dm"lien vers conv du cracko"</li>
+        </ul>
+        <p>Manquer à l'une de ces règles est passible de ban définitif! La CrackoSphere est un lieu de détente, où tu peux apprendre, discuter et rigoler mais surtout éviter les scams.🌐</p>
+    </div>
+</body>
+</html>
