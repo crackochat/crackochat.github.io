@@ -27,16 +27,15 @@ body {
 button {
     padding: 15px;
     font-size: 16px;
-    border: none;
+    border: 1px solid hsl(128, 52%, 43%); /* Ajout d'une bordure fine */
     border-radius: 50px;
-    background-color: hsl(128, 52%, 43%);
+    background-color: rgb(17, 25, 36); /* Fond de la même couleur que la page */
     color: white;
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
     width: 150px;
     align-self: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    color: rbg(17, 25, 36);
 }
 
 button:hover {
