@@ -50,3 +50,31 @@ body {
     background-color: #000000;
     color: white;
 }
+
+#backButton {
+    position: fixed;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    display: block; /* Ensures it fits the image size */
+    padding: 0; /* Removes any padding */
+    margin: 0; /* Ensures no default margin */
+    border: none; /* Ensures no border */
+    background: none; /* Removes any background */
+    cursor: pointer;
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+#backButton img {
+    width: 40px; /* Adjust the size based on your needs */
+    height: auto;
+}
+
+/* Additional hover effects if needed */
+#backButton:hover img {
+    opacity: 0.8;
+}
+
+#backButton:active img {
+    opacity: 0.6;
+}
+
