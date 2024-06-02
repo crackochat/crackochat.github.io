@@ -12,7 +12,20 @@ body {
 .container {
     text-align: center;
 }
+.sentence {
+    margin-top: -20px;
+    color: white;
+    margin-bottom: 10px;
+}
 
+.up-welcome {
+    color: white;
+    margin-bottom: -30px;
+}
+
+.messages {
+    margin-bottom: 30px;
+}
 .welcome-message {
     margin-bottom: 15px;
     color: white;
